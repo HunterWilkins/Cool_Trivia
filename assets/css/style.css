@@ -1,0 +1,91 @@
+body{
+    text-align:center;
+    width:90%;
+    margin:0 auto;
+    background:rgb(20, 16, 16);
+    
+    
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:rgb(39, 25, 25);
+    color:goldenrod;
+}
+
+hr{
+    border-bottom:none;
+    border-color:rgb(135, 106, 34);
+    border-width:1px;
+    border-style:solid;
+    width:50%;
+
+}
+
+#timer{
+    font-size: 1.5em;
+    font-style:bolder;
+}
+
+h1{
+    margin-bottom:5px;
+}
+
+h2:hover{
+    cursor:pointer;
+    color:rgb(253, 231, 67);
+    text-shadow: 0 0 5px rgb(255, 227, 100);
+}
+
+form input{
+    text-align:left;
+}
+
+p {
+    font-size: 1.2em;
+    font-style:bolder;
+}
+
+.game-over{
+    margin-bottom:5px;
+    font-size:28px;
+}
+
+.results{
+    margin-top:200px;
+    color: rgb(253, 231, 67);
+    text-shadow:0 0 10px rgb(255, 228, 160);
+}
+
+.content{
+    margin-top:150px;
+    color:rgb(172, 136, 43);
+}
+
+.content h1{
+    color:rgb(255, 224, 87);
+}
+
+.start-button{
+    border:none;
+    background-color:rgb(39, 25, 25);
+    color:goldenrod;
+    font-size:28px;
+    padding:15px;
+    transition:padding .25s, text-shadow .25s, color .25s, font-size .25s;
+}
+
+.start-button:hover{
+    color: rgb(253, 231, 67);
+    text-shadow:0 0 10px rgb(255, 228, 160);
+    cursor:pointer;
+    padding:30px;
+}
+
+.start-button:active{
+    font-size:11px;
+    padding:0px;
+}
