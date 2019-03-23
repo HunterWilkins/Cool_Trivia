@@ -10,3 +10,4 @@ encountered the "aha!" moment when it came to my specific problems regarding the
 
 My goal here was mostly to prove the effectiveness of the timer. Running through the program, I'm pretty sure I've ironed out all the bugs.
 
+ Deployed Link: https://hunterwilkins.github.io/TriviaGame/
